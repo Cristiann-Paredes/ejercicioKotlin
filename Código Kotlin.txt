@@ -1,0 +1,63 @@
+Código 
+
+
+// Cristian Paredes 
+
+import kotlin.math.PI // Importacion
+
+
+fun main() {
+    // Menú
+    println("Seleccione una opción para calcular el área:")
+    println("1. Cuadrado")
+    println("2. Círculo")
+    println("3. Triángulo")
+    println("4. Salir")
+    val opcion = js("prompt('Opción:')") as String?
+    
+
+    when (opcion?.toIntOrNull()) {
+        
+        1 -> {
+            // Area de un cuadrado
+            val lado = (js("prompt('Ingrese el lado del cuadrado:')") as String?)?.toDoubleOrNull()
+            if (lado != null && lado > 0) {
+                val area = lado * lado
+                println("El área del cuadrado es: $area")
+            } else {
+                println("Por favor, ingrese un valor válido.")
+            }
+        }
+        
+        2 -> {
+            // Area de un círculo
+            val radio = (js("prompt('Ingrese el radio del círculo:')") as String?)?.toDoubleOrNull()
+            if (radio != null && radio > 0) {
+                val area = PI * radio * radio 
+                println("El área del círculo es: $area")
+            } else {
+                println("Por favor, ingrese un valor válido.")
+            }
+        }
+        
+        3 -> {
+            // Area de un triángulo
+            val base = (js("prompt('Ingrese la base del triángulo:')") as String?)?.toDoubleOrNull()
+            val altura = (js("prompt('Ingrese la altura del triángulo:')") as String?)?.toDoubleOrNull()
+            if (base != null && base > 0 && altura != null && altura > 0) {
+                val area = (base * altura) / 2
+                println("El área del triángulo es: $area")
+            } else {
+                println("Por favor, ingrese valores válidos.")
+            }
+        }
+        
+        4 -> {
+            // Salir
+            println("¡Gracias por salir.......!")
+        }
+        else -> {
+            println("Opción no válida. Intente nuevamente.")
+        }
+    }
+}
