@@ -43,7 +43,9 @@ Desarrolle un programa en Kotlin que me permita calcular con un menú el área d
 ![{74D67BB0-825A-4025-8912-D856E7780085}](https://github.com/user-attachments/assets/7dc2a2ce-c4e8-4626-b384-2638340863b3)
 
 
+# Salir 
 
+![{73B0D6FF-AF54-40EE-A802-A400F3941888}](https://github.com/user-attachments/assets/c2b4c239-33c4-4823-9b5b-5ca88805dd2a)
 
 
 
