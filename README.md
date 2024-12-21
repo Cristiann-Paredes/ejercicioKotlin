@@ -1,4 +1,4 @@
-# ejercicioKotlin
+# Ejercicio Kotlin
 
 
 Desarrolle un programa en Kotlin que me permita calcular con un menú el área de un cuadrado, un circulo o un triangulo
@@ -29,6 +29,20 @@ Desarrolle un programa en Kotlin que me permita calcular con un menú el área d
 ## Resultado
 ![{1EC2BA86-01B8-4D06-837A-5CF9796AAEC2}](https://github.com/user-attachments/assets/341886b6-4476-443d-9099-022db5a31cec)
 ![{3068333E-F410-40B1-9536-BA3B2384655F}](https://github.com/user-attachments/assets/7a1bd32e-ad17-45ca-9595-e2157d34dc52)
+
+
+# Area de un triángulo
+
+![{F664D102-8584-4DCF-9B54-7990D495F70A}](https://github.com/user-attachments/assets/edc31017-debb-4aac-a9d0-90c59560bc55)
+
+![{0E1D6C09-1764-449E-B2BD-634B313E1440}](https://github.com/user-attachments/assets/738614fe-200e-46ef-afd3-0d1028ae2530)
+
+## Resultado
+![{B41AAF33-388E-482A-808D-2AC3DE0B328D}](https://github.com/user-attachments/assets/45d3ab43-65bb-4bbc-8925-1bbcd81c1a41)
+![{66FD07DD-6B0E-4537-A597-664B63A7B7D8}](https://github.com/user-attachments/assets/385955bd-607e-40b4-b5f3-ad5696df8e0f)
+![{74D67BB0-825A-4025-8912-D856E7780085}](https://github.com/user-attachments/assets/7dc2a2ce-c4e8-4626-b384-2638340863b3)
+
+
 
 
 
